@@ -68,8 +68,17 @@ button {
     border-radius: 5px;
 }
 
+#divide {
+    border-radius: 5px 5px 5px 15px;
+}
+
+#add {
+    border-radius: 5px 5px 15px 5px;
+}
+
 input {
     flex:1;
+    border-radius: 5px 5px 5px 5px;
 }
 
 button:active {

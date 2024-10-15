@@ -13,7 +13,11 @@ function calculate(operation) {
     } else {
         switch (operation) {
             case "divide":
-                result = `${num1} / ${num2} = ${num1 / num2}`;
+                if (num2 == 0) {
+                    result = "Can't divide by zero";
+                } else {
+                    result = `${num1} / ${num2} = ${num1 / num2}`;
+                }
                 break;
             case "multiply":
                 result = `${num1} * ${num2} = ${num1 * num2}`;
