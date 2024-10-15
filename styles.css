@@ -1,0 +1,78 @@
+body {
+}
+
+h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(80, 80, 160)
+}
+
+input {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0 25px;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 50, 100);
+    margin: 10px auto;
+    width: 500px;
+    height: 625px;
+    border-radius: 20px;
+    border: 6px rgb(50, 50, 100) solid;
+}
+
+#display {
+    flex: 1;
+    background-color: rgb(240, 240, 255);
+    border-radius: 15px;
+    padding: 0 25px;
+}
+
+#controls {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 50, 100);
+    border-top: 6px rgb(50, 50, 100) solid;
+    border-radius: 0 0 10px 10px;
+}
+
+#operators {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    flex: 1;
+    border-radius: 5px;
+}
+
+input {
+    flex:1;
+}
+
+button:active {
+    background-color: rgb(230, 230, 245);
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
